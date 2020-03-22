@@ -22,7 +22,6 @@ namespace Functions
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             return new OkObjectResult(requestBody);
-            
         }
     }
 }
