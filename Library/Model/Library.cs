@@ -1,4 +1,6 @@
-﻿namespace Library.Model
+﻿using System;
+
+namespace Library.Model
 {
     public class Library
     {

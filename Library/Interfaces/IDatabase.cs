@@ -7,6 +7,6 @@ namespace Library.Interfaces
     {
         public Task<List<Model.Library>> getLibraries();
         public Task updateLibrary(Model.Library library);
-        public Task createLibrary(Model.Library library);
+        public Task<Model.Library> createLibrary(Model.Library library);
     }
 }

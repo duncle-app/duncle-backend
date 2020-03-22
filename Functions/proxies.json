@@ -1,0 +1,10 @@
+﻿{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "CreateLibraryProxy": {
+      "matchCondition": {
+        "route": "v1/library"
+      }
+    }
+  }
+}

@@ -22,9 +22,9 @@ namespace Library
             return libraries;
         }
 
-        public async Task createLibrary(Model.Library library)
+        public async Task<Model.Library> createLibrary(Model.Library library)
         {
-            await this.db.createLibrary(library);
+            return await this.db.createLibrary(library);
         }
 
         public async Task updateLibrary(Model.Library library)
