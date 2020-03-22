@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\dev\duncle\DuncleBackend" t="IncludeFlat">
+    <e p="C:\Users\Jake\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\Jake\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Jake\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Jake\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\Jake\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Jake\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jake\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DuncleBackend.1194572094.00" t="ExcludeRecursive" />
+    <e p="E:\dev\work\dotnet\duncle-backend" t="IncludeFlat">
+      <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p="DuncleBackend.sln" t="IncludeFlat" />
       <e p="Functions" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
@@ -10,7 +20,6 @@
         <e p="Functions.csproj" t="IncludeRecursive" />
         <e p="GetLibraries.cs" t="Include" />
         <e p="host.json" t="Include" />
-        <e p="local.settings.json" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -22,9 +31,12 @@
       <e p="Library" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Control" t="Include">
-          <e p="IDatabase.cs" t="Include" />
+          <e p="BlobDatabase.cs" t="Include" />
         </e>
         <e p="DuncleLibrary.cs" t="Include" />
+        <e p="interfaces" t="Include">
+          <e p="IDatabase.cs" t="Include" />
+        </e>
         <e p="Library.csproj" t="IncludeRecursive" />
         <e p="Model" t="Include">
           <e p="Contact.cs" t="Include" />
@@ -53,13 +65,5 @@
         <e p="UnitTests.csproj" t="IncludeRecursive" />
       </e>
     </e>
-    <e p="C:\Users\clayp\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0" t="Include">
-      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
-    </e>
-    <e p="C:\Users\clayp\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\clayp\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\clayp\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="C:\Users\clayp\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\clayp\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DuncleBackend.-481430927.00" t="ExcludeRecursive" />
   </component>
 </project>
