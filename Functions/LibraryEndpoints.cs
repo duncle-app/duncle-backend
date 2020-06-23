@@ -62,6 +62,7 @@ namespace Functions
                 
                 switch (req.Method)
                 {
+                    
                     case "POST":
                     {
                         Library.Model.Library createdLibrary = await lib.createLibrary(inputLibrary);

@@ -62,7 +62,7 @@
     <e p="C:\Users\clayp\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
     <e p="C:\Users\clayp\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="C:\Users\clayp\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="C:\Users\clayp\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\clayp\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DuncleBackend.-481430927.00" t="ExcludeRecursive" />
+    <e p="C:\Users\clayp\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\clayp\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_DuncleBackend.-481430927.00" t="ExcludeRecursive" />
   </component>
 </project>
